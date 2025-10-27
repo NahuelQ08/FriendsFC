@@ -1,0 +1,56 @@
+/* Fondo general */
+body {
+    background-color: #000000;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
+/* Botones Login*/
+.stButton>button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 0.6em 1.5em;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.stButton>button:hover {
+    background-color: #2a2a3d;
+    transform: scale(1.05);
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: #161a22;
+    border-radius: 10px;
+    padding: 0.2rem;
+}
+.stTabs [data-baseweb="tab"] {
+    background-color: #1e2230;
+    color: #fafafa;
+    border-radius: 8px;
+}
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #2a2e3d;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+/* Inputs */
+input, textarea {
+    background-color: #1e1e2d !important;
+    color: #fafafa !important;
+    border-radius: 8px !important;
+}
+
+/* Mensajes y alertas */
+.stAlert {
+    border-left: 4px solid #00c3ff;
+}
+
+
+
