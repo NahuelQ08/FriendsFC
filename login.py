@@ -11,6 +11,6 @@ def login_screen():
     if st.button("Iniciar Sesión", use_container_width=True):
         if check_credentials(username, password):
             st.session_state.logged_in = True
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Usuario o contraseña incorrectos.")
