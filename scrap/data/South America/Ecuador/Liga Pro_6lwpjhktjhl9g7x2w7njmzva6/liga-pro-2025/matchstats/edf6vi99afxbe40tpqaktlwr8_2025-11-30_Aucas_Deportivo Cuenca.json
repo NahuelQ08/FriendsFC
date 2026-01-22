@@ -1,0 +1,2714 @@
+{
+  "matchInfo": {
+    "id": "edf6vi99afxbe40tpqaktlwr8",
+    "coverageLevel": "13",
+    "date": "2025-11-30Z",
+    "time": "18:00:00Z",
+    "localDate": "2025-11-30",
+    "localTime": "13:00:00",
+    "week": "7",
+    "postMatch": "1",
+    "numberOfPeriods": 2,
+    "periodLength": 45,
+    "var": "1",
+    "lastUpdated": "2025-12-04T18:54:16Z",
+    "description": "Aucas vs Deportivo Cuenca",
+    "sport": {
+      "id": "289u5typ3vp4ifwh5thalohmq",
+      "name": "Soccer"
+    },
+    "ruleset": {
+      "id": "79plas4983031idr6vw83nuel",
+      "name": "Men"
+    },
+    "competition": {
+      "id": "6lwpjhktjhl9g7x2w7njmzva6",
+      "name": "Liga Pro",
+      "knownName": "Ecuador Liga Pro",
+      "sponsorName": "LigaPro Ecuabet",
+      "competitionCode": "PRO",
+      "competitionFormat": "Domestic league",
+      "country": {
+        "id": "6pyj2bytt2osbjk69owzfehcg",
+        "name": "Ecuador"
+      }
+    },
+    "tournamentCalendar": {
+      "id": "5kew94t602zbzw5zv2rjkcetw",
+      "startDate": "2025-02-15Z",
+      "endDate": "2025-12-21Z",
+      "name": "2025"
+    },
+    "stage": {
+      "id": "bhk04z3dlll7n3m7zabjbeqs4",
+      "formatId": "askfp70bl7g5rpplziplites4",
+      "startDate": "2025-10-04Z",
+      "endDate": "2025-12-21Z",
+      "name": "Copa Sudamericana Play-off"
+    },
+    "contestant": [
+      {
+        "id": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "name": "Aucas",
+        "shortName": "Aucas",
+        "officialName": "SD Aucas",
+        "code": "AUC",
+        "position": "home",
+        "country": {
+          "id": "6pyj2bytt2osbjk69owzfehcg",
+          "name": "Ecuador"
+        }
+      },
+      {
+        "id": "6gcr0sc8ei7umo38l346y7n7",
+        "name": "Deportivo Cuenca",
+        "shortName": "Dep. Cuenca",
+        "officialName": "CD Cuenca",
+        "code": "CUE",
+        "position": "away",
+        "country": {
+          "id": "6pyj2bytt2osbjk69owzfehcg",
+          "name": "Ecuador"
+        }
+      }
+    ],
+    "venue": {
+      "id": "b5bwksbuhs5p22p1f6w4lwhw2",
+      "neutral": "no",
+      "longName": "Estadio Cooprogreso Gonzalo Pozo Ripalda",
+      "shortName": "Estadio Cooprogreso Gonzalo Pozo Ripalda",
+      "latitude": "-0.278884263",
+      "longitude": "-78.546200395"
+    }
+  },
+  "liveData": {
+    "matchDetails": {
+      "periodId": 14,
+      "matchStatus": "Played",
+      "winner": "home",
+      "matchLengthMin": 100,
+      "matchLengthSec": 48,
+      "period": [
+        {
+          "id": 1,
+          "start": "2025-11-30T18:01:08Z",
+          "end": "2025-11-30T18:50:04Z",
+          "lengthMin": 48,
+          "lengthSec": 56,
+          "announcedInjuryTime": 240
+        },
+        {
+          "id": 2,
+          "start": "2025-11-30T19:07:10Z",
+          "end": "2025-11-30T19:59:02Z",
+          "lengthMin": 51,
+          "lengthSec": 52,
+          "announcedInjuryTime": 420
+        }
+      ],
+      "scores": {
+        "ht": {
+          "home": 0,
+          "away": 1
+        },
+        "ft": {
+          "home": 2,
+          "away": 1
+        },
+        "total": {
+          "home": 2,
+          "away": 1
+        }
+      }
+    },
+    "goal": [
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 1,
+        "timeMin": 34,
+        "timeMinSec": "33:23",
+        "lastUpdated": "2025-11-30T18:35:57Z",
+        "timestamp": "2025-11-30T18:34:32Z",
+        "type": "G",
+        "scorerId": "ecb54se2u1pvo0rmt3iru3uac",
+        "scorerName": "L. Gustavino",
+        "assistPlayerId": "cebzrizhi195acmaw8c4cku09",
+        "assistPlayerName": "A. Tobar",
+        "optaEventId": "2878710277",
+        "homeScore": 0,
+        "awayScore": 1
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 78,
+        "timeMinSec": "77:19",
+        "lastUpdated": "2025-11-30T19:40:27Z",
+        "timestamp": "2025-11-30T19:39:30Z",
+        "type": "G",
+        "scorerId": "2lqwu9wsnguofkipcgca0btka",
+        "scorerName": "J. Ontaneda",
+        "optaEventId": "2878750639",
+        "homeScore": 1,
+        "awayScore": 1
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 87,
+        "timeMinSec": "86:54",
+        "lastUpdated": "2025-12-04T18:54:10Z",
+        "timestamp": "2025-11-30T19:49:05Z",
+        "type": "G",
+        "scorerId": "33v63iqwhn8rosqot8xhxyxd6",
+        "scorerName": "L. Cano",
+        "assistPlayerId": "57cl5vnrahqo5tyc62il8xeqd",
+        "assistPlayerName": "B. Montenegro",
+        "optaEventId": "2878756211",
+        "homeScore": 2,
+        "awayScore": 1
+      }
+    ],
+    "card": [
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 1,
+        "timeMin": 33,
+        "timeMinSec": "32:11",
+        "lastUpdated": "2025-11-30T18:33:24Z",
+        "timestamp": "2025-11-30T18:33:20Z",
+        "type": "YC",
+        "playerId": "a5iesdrky1ux0s099cfun6ycq",
+        "playerName": "E. Segura",
+        "optaEventId": "2878708949",
+        "cardReason": "Foul"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 53,
+        "timeMinSec": "52:30",
+        "lastUpdated": "2025-11-30T19:14:43Z",
+        "timestamp": "2025-11-30T19:14:41Z",
+        "type": "YC",
+        "playerId": "3uwu4ulk4ycn2e55elriws296",
+        "playerName": "K. Moreno",
+        "optaEventId": "2878735919",
+        "cardReason": "Foul"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 54,
+        "timeMinSec": "53:57",
+        "lastUpdated": "2025-12-04T18:54:10Z",
+        "timestamp": "2025-11-30T19:16:08Z",
+        "type": "YC",
+        "playerId": "3pseo7ehrlksshbk4s9heg6c4",
+        "playerName": "A. Spina",
+        "optaEventId": "2878736755",
+        "cardReason": "Dissent"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 60,
+        "timeMinSec": "59:06",
+        "lastUpdated": "2025-11-30T19:26:05Z",
+        "timestamp": "2025-11-30T19:21:16Z",
+        "type": "YC",
+        "playerId": "6fzqnn8zjgmcvydun0nktv0q2",
+        "playerName": "B. Bustos",
+        "optaEventId": "2878742865",
+        "cardReason": "Time wasting"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 70,
+        "timeMinSec": "69:30",
+        "lastUpdated": "2025-11-30T19:32:14Z",
+        "timestamp": "2025-11-30T19:31:41Z",
+        "type": "Y2C",
+        "playerId": "3uwu4ulk4ycn2e55elriws296",
+        "playerName": "K. Moreno",
+        "optaEventId": "2878746197",
+        "cardReason": "Time wasting"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 88,
+        "timeMinSec": "87:05",
+        "lastUpdated": "2025-11-30T19:53:01Z",
+        "timestamp": "2025-11-30T19:49:16Z",
+        "type": "YC",
+        "playerId": "5t1zsk9kamjebuvv1yl34aga1",
+        "playerName": "M. Maccari",
+        "optaEventId": "2878758211",
+        "cardReason": "Dissent"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 89,
+        "timeMinSec": "88:35",
+        "lastUpdated": "2025-11-30T19:51:08Z",
+        "timestamp": "2025-11-30T19:50:46Z",
+        "type": "YC",
+        "playerId": "33v63iqwhn8rosqot8xhxyxd6",
+        "playerName": "L. Cano",
+        "optaEventId": "2878757117",
+        "cardReason": "Excessive celebration"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 90,
+        "timeMinSec": "89:59",
+        "lastUpdated": "2025-12-04T18:54:10Z",
+        "timestamp": "2025-11-30T19:52:10Z",
+        "type": "YC",
+        "playerId": "2lqwu9wsnguofkipcgca0btka",
+        "playerName": "J. Ontaneda",
+        "optaEventId": "2878757925",
+        "cardReason": "Time wasting"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 91,
+        "timeMinSec": "90:40",
+        "lastUpdated": "2025-11-30T19:58:13Z",
+        "timestamp": "2025-11-30T19:52:51Z",
+        "type": "YC",
+        "playerId": "bgom4s2swmotuvtklxlrlngus",
+        "playerName": "E. Pepinos",
+        "optaEventId": "2878760941",
+        "cardReason": "Time wasting"
+      }
+    ],
+    "substitute": [
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 55,
+        "timeMinSec": "54:32",
+        "lastUpdated": "2025-11-30T19:17:02Z",
+        "timestamp": "2025-11-30T19:16:43Z",
+        "playerOnId": "d7im7zieua6bh8y8m5eh646xg",
+        "playerOnName": "R. Quiñónez",
+        "playerOffId": "c1s8fieakkfnw5qjahgrp38fe",
+        "playerOffName": "Jonnathan Gabriel Mina",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 55,
+        "timeMinSec": "54:33",
+        "lastUpdated": "2025-11-30T19:17:11Z",
+        "timestamp": "2025-11-30T19:16:44Z",
+        "playerOnId": "7py0p0nixs4vkf6kehq0thi0a",
+        "playerOnName": "A. Mina",
+        "playerOffId": "ezsyul468k6343labm4tgel1w",
+        "playerOffName": "U. Ciccioli",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 69,
+        "timeMinSec": "68:55",
+        "lastUpdated": "2025-11-30T19:31:11Z",
+        "timestamp": "2025-11-30T19:31:05Z",
+        "playerOnId": "bgom4s2swmotuvtklxlrlngus",
+        "playerOnName": "E. Pepinos",
+        "playerOffId": "d6gphu89283pngbaenacu1cr9",
+        "playerOffName": "R. Jaramillo",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 74,
+        "timeMinSec": "73:46",
+        "lastUpdated": "2025-11-30T19:36:07Z",
+        "timestamp": "2025-11-30T19:35:57Z",
+        "playerOnId": "1k0un5v0yoe000dhbiqtrv74l",
+        "playerOnName": "E. Guevara",
+        "playerOffId": "105twqa3d2gwhb4y8xqu4xtrd",
+        "playerOffName": "A. Rodríguez",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "periodId": 2,
+        "timeMin": 76,
+        "timeMinSec": "75:22",
+        "lastUpdated": "2025-11-30T19:37:43Z",
+        "timestamp": "2025-11-30T19:37:33Z",
+        "playerOnId": "83p554lqkya2wsmfy2mwt0844",
+        "playerOnName": "S. Porozo",
+        "playerOffId": "a5iesdrky1ux0s099cfun6ycq",
+        "playerOffName": "E. Segura",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 86,
+        "timeMinSec": "85:07",
+        "lastUpdated": "2025-11-30T19:47:42Z",
+        "timestamp": "2025-11-30T19:47:18Z",
+        "playerOnId": "3ays4v9vrhu4coqj6oaqp2nkl",
+        "playerOnName": "D. Noboa",
+        "playerOffId": "yqmce3yjqo7vsxcxqxz0ccgk",
+        "playerOffName": "B. Nazareno",
+        "subReason": "Injury"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 86,
+        "timeMinSec": "85:07",
+        "lastUpdated": "2025-11-30T19:47:46Z",
+        "timestamp": "2025-11-30T19:47:17Z",
+        "playerOnId": "3cv6v6qr1gjuj04hc6jaevuju",
+        "playerOnName": "M. Piedra",
+        "playerOffId": "cebzrizhi195acmaw8c4cku09",
+        "playerOffName": "A. Tobar",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "periodId": 2,
+        "timeMin": 86,
+        "timeMinSec": "85:17",
+        "lastUpdated": "2025-11-30T19:47:51Z",
+        "timestamp": "2025-11-30T19:47:28Z",
+        "playerOnId": "anjj4mxkwbd3x5fhzwlaxpvit",
+        "playerOnName": "L. Mancinelli",
+        "playerOffId": "6habcmdfjyvoh833ox9ayxo4q",
+        "playerOffName": "L. Estupiñán",
+        "subReason": "Injury"
+      }
+    ],
+    "lineUp": [
+      {
+        "contestantId": "6qtl2ep6r5k1m3y6t8uh57y0g",
+        "formationUsed": "532",
+        "averageAge": 28.4,
+        "player": [
+          {
+            "playerId": "yfktjm0jc09skdfddl3ndyvp",
+            "firstName": "Hamilton Emanuel",
+            "lastName": "Piedra Ordóñez",
+            "shortFirstName": "Hamilton",
+            "shortLastName": "Piedra",
+            "matchName": "H. Piedra",
+            "shirtNumber": 32,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "formationPlace": "1",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "13"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalKicks",
+                "value": "3"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "saves",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "20"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "1"
+              }
+            ]
+          },
+          {
+            "playerId": "a5iesdrky1ux0s099cfun6ycq",
+            "firstName": "Estalin Tiberio",
+            "lastName": "Segura Cortés",
+            "shortFirstName": "Estalin",
+            "shortLastName": "Segura",
+            "matchName": "E. Segura",
+            "shirtNumber": 2,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "formationPlace": "4",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "46"
+              },
+              {
+                "type": "blockedScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "fouls",
+                "value": "2"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "76"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "51"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "4"
+              }
+            ]
+          },
+          {
+            "playerId": "2lqwu9wsnguofkipcgca0btka",
+            "firstName": "John Jairo",
+            "lastName": "Ontaneda Campos",
+            "shortFirstName": "John",
+            "shortLastName": "Ontaneda",
+            "matchName": "J. Ontaneda",
+            "shirtNumber": 3,
+            "position": "Defender",
+            "positionSide": "Centre",
+            "formationPlace": "5",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "64"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalKicks",
+                "value": "1"
+              },
+              {
+                "type": "goals",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "9"
+              },
+              {
+                "type": "totalPass",
+                "value": "70"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalThrows",
+                "value": "1"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "5"
+              }
+            ]
+          },
+          {
+            "playerId": "19uqb6e69e2ybv0r78m0gg3bp",
+            "firstName": "Carlos Adalberto",
+            "lastName": "Rolón Ibarra",
+            "shortFirstName": "Carlos",
+            "shortLastName": "Rolón",
+            "matchName": "C. Rolón",
+            "shirtNumber": 16,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "formationPlace": "6",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "55"
+              },
+              {
+                "type": "fouls",
+                "value": "3"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "69"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalThrows",
+                "value": "7"
+              },
+              {
+                "type": "wonCorners",
+                "value": "2"
+              },
+              {
+                "type": "formationPlace",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "playerId": "c1s8fieakkfnw5qjahgrp38fe",
+            "firstName": "Jonnathan Gabriel",
+            "lastName": "Mina Jara",
+            "shortFirstName": "Jonnathan",
+            "shortLastName": "Mina",
+            "knownName": "Jonnathan Mina",
+            "matchName": "Jonnathan Gabriel Mina",
+            "shirtNumber": 17,
+            "position": "Wing Back",
+            "positionSide": "Left",
+            "formationPlace": "3",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "22"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "55"
+              },
+              {
+                "type": "totalPass",
+                "value": "25"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "totalThrows",
+                "value": "2"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "3"
+              }
+            ]
+          },
+          {
+            "playerId": "ezsyul468k6343labm4tgel1w",
+            "firstName": "Ulises Albano",
+            "lastName": "Ciccioli",
+            "shortFirstName": "Ulises",
+            "shortLastName": "Ciccioli",
+            "matchName": "U. Ciccioli",
+            "shirtNumber": 27,
+            "position": "Wing Back",
+            "positionSide": "Right",
+            "formationPlace": "2",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "9"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "55"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "16"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "totalThrows",
+                "value": "2"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "playerId": "d6gphu89283pngbaenacu1cr9",
+            "firstName": "Renny Salén",
+            "lastName": "Jaramillo Barre",
+            "shortFirstName": "Renny",
+            "shortLastName": "Jaramillo",
+            "matchName": "R. Jaramillo",
+            "shirtNumber": 25,
+            "position": "Midfielder",
+            "positionSide": "Left/Centre",
+            "formationPlace": "11",
+            "captain": "yes",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "24"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "69"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "29"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "2"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "playerId": "3pseo7ehrlksshbk4s9heg6c4",
+            "firstName": "Agostino Luigi",
+            "lastName": "Spina",
+            "shortFirstName": "Agostino",
+            "shortLastName": "Spina",
+            "matchName": "A. Spina",
+            "shirtNumber": 21,
+            "position": "Midfielder",
+            "positionSide": "Centre",
+            "formationPlace": "8",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "43"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "53"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "wasFouled",
+                "value": "3"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "8"
+              }
+            ]
+          },
+          {
+            "playerId": "33v63iqwhn8rosqot8xhxyxd6",
+            "firstName": "Luis Ángel",
+            "lastName": "Cano Quintana",
+            "shortFirstName": "Luis",
+            "shortLastName": "Cano",
+            "matchName": "L. Cano",
+            "shirtNumber": 22,
+            "position": "Midfielder",
+            "positionSide": "Centre/Right",
+            "formationPlace": "7",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "19"
+              },
+              {
+                "type": "cornerTaken",
+                "value": "3"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goals",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "23"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "3"
+              },
+              {
+                "type": "totalTackle",
+                "value": "2"
+              },
+              {
+                "type": "totalThrows",
+                "value": "5"
+              },
+              {
+                "type": "wasFouled",
+                "value": "3"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "7"
+              }
+            ]
+          },
+          {
+            "playerId": "f3exestd6ob5mzbusl5omjjs9",
+            "firstName": "Bruno",
+            "lastName": "Miranda Villagomez",
+            "shortFirstName": "Bruno",
+            "shortLastName": "Miranda",
+            "matchName": "B. Miranda",
+            "shirtNumber": 7,
+            "position": "Striker",
+            "positionSide": "Left/Centre",
+            "formationPlace": "9",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "19"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalClearance",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "23"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "formationPlace",
+                "value": "9"
+              }
+            ]
+          },
+          {
+            "playerId": "57cl5vnrahqo5tyc62il8xeqd",
+            "firstName": "Brian Guillermo",
+            "lastName": "Montenegro Benítez",
+            "shortFirstName": "Brian",
+            "shortLastName": "Montenegro",
+            "matchName": "B. Montenegro",
+            "shirtNumber": 9,
+            "position": "Striker",
+            "positionSide": "Centre/Right",
+            "formationPlace": "10",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "18"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalAssist",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "20"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "10"
+              }
+            ]
+          },
+          {
+            "playerId": "7a9j19hjx3wtilx8j5vj2wiz8",
+            "firstName": "Jorge Ariel",
+            "lastName": "Almagro Albán",
+            "shortFirstName": "Ariel",
+            "shortLastName": "Almagro",
+            "matchName": "A. Almagro",
+            "shirtNumber": 18,
+            "position": "Substitute",
+            "subPosition": "Attacker",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "btho1wfmw214urq7fapk95yc4",
+            "firstName": "Jefferson Edwar",
+            "lastName": "Cabezas Corozo",
+            "shortFirstName": "Jefferson",
+            "shortLastName": "Cabezas",
+            "matchName": "J. Cabezas",
+            "shirtNumber": 40,
+            "position": "Substitute",
+            "subPosition": "Goalkeeper",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "7py0p0nixs4vkf6kehq0thi0a",
+            "firstName": "Angelo Javier",
+            "lastName": "Mina Jara",
+            "shortFirstName": "Angelo",
+            "shortLastName": "Mina",
+            "knownName": "Angelo Mina",
+            "matchName": "A. Mina",
+            "shirtNumber": 8,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "7"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "35"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "9"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "bgom4s2swmotuvtklxlrlngus",
+            "firstName": "Oscar Elián",
+            "lastName": "Pepinos Arboleda",
+            "shortFirstName": "Elián",
+            "shortLastName": "Pepinos",
+            "matchName": "E. Pepinos",
+            "shirtNumber": 19,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "12"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "21"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "14"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "83p554lqkya2wsmfy2mwt0844",
+            "firstName": "Snayder Vladimir",
+            "lastName": "Porozo Caicedo",
+            "shortFirstName": "Snayder",
+            "shortLastName": "Porozo",
+            "knownName": "Snayder Porozo",
+            "matchName": "S. Porozo",
+            "shirtNumber": 33,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "4"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "14"
+              },
+              {
+                "type": "totalClearance",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "4"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "d7im7zieua6bh8y8m5eh646xg",
+            "firstName": "Ederson Robiño",
+            "lastName": "Quiñónez Medina",
+            "shortFirstName": "Robiño",
+            "shortLastName": "Quiñónez",
+            "matchName": "R. Quiñónez",
+            "shirtNumber": 28,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "7"
+              },
+              {
+                "type": "cornerTaken",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "35"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "12"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "totalThrows",
+                "value": "2"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "3gtbe4p2asxa1er6jif770ciy",
+            "firstName": "Thiago Augusto",
+            "lastName": "Serpa Carmona",
+            "shortFirstName": "Thiago",
+            "shortLastName": "Serpa",
+            "matchName": "Thiago Serpa",
+            "shirtNumber": 5,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "7c928axaa1rbqqyix2pm15rrp",
+            "firstName": "Jonny Alexander",
+            "lastName": "Uchuari Pintado",
+            "shortFirstName": "Jonny",
+            "shortLastName": "Uchuari",
+            "matchName": "J. Uchuari",
+            "shirtNumber": 10,
+            "position": "Substitute",
+            "subPosition": "Attacker",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "6u5110uirl21q32w45o5ieqz8",
+            "firstName": "Alex Rodrigo",
+            "lastName": "Zova Cacierra",
+            "shortFirstName": "Alex",
+            "shortLastName": "Zova",
+            "matchName": "A. Zova",
+            "shirtNumber": 37,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "teamOfficial": [
+          {
+            "id": "d1yfugbo4ewywk44lqjmx5yc4",
+            "firstName": "Juan Pablo",
+            "lastName": "Buch Pabón",
+            "shortFirstName": "Juan",
+            "shortLastName": "Buch",
+            "type": "manager"
+          }
+        ],
+        "stat": [
+          {
+            "fh": "188",
+            "sh": "174",
+            "type": "accuratePass",
+            "value": "362"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "blockedScoringAtt",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "5",
+            "type": "cornerTaken",
+            "value": "5"
+          },
+          {
+            "fh": "5",
+            "sh": "4",
+            "type": "fkFoulLost",
+            "value": "9"
+          },
+          {
+            "fh": "6",
+            "sh": "4",
+            "type": "fkFoulWon",
+            "value": "10"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "goalAssist",
+            "value": "1"
+          },
+          {
+            "fh": "4",
+            "sh": "0",
+            "type": "goalKicks",
+            "value": "4"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "goals",
+            "value": "2"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalsConceded",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "lostCorners",
+            "value": "3"
+          },
+          {
+            "fh": "1",
+            "sh": "7",
+            "type": "ontargetScoringAtt",
+            "value": "8"
+          },
+          {
+            "fh": "53.9",
+            "sh": "72.8",
+            "type": "possessionPercentage",
+            "value": "62.1"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "saves",
+            "value": "1"
+          },
+          {
+            "fh": "1",
+            "sh": "5",
+            "type": "shotOffTarget",
+            "value": "6"
+          },
+          {
+            "fh": "0",
+            "sh": "4",
+            "type": "subsMade",
+            "value": "4"
+          },
+          {
+            "fh": "8",
+            "sh": "12",
+            "type": "totalClearance",
+            "value": "20"
+          },
+          {
+            "fh": "224",
+            "sh": "214",
+            "type": "totalPass",
+            "value": "438"
+          },
+          {
+            "fh": "3",
+            "sh": "12",
+            "type": "totalScoringAtt",
+            "value": "15"
+          },
+          {
+            "fh": "4",
+            "sh": "4",
+            "type": "totalTackle",
+            "value": "8"
+          },
+          {
+            "fh": "8",
+            "sh": "11",
+            "type": "totalThrows",
+            "value": "19"
+          },
+          {
+            "fh": "1",
+            "sh": "4",
+            "type": "totalYellowCard",
+            "value": "5"
+          },
+          {
+            "fh": "0",
+            "sh": "5",
+            "type": "wonCorners",
+            "value": "5"
+          },
+          {
+            "fh": "2",
+            "sh": "2",
+            "type": "wonTackle",
+            "value": "4"
+          },
+          {
+            "type": "formationUsed",
+            "value": "532"
+          }
+        ],
+        "kit": {
+          "id": "29205",
+          "colour1": "#FFFF00",
+          "colour2": "#FF0000",
+          "type": "home"
+        }
+      },
+      {
+        "contestantId": "6gcr0sc8ei7umo38l346y7n7",
+        "formationUsed": "352",
+        "averageAge": 27.0,
+        "player": [
+          {
+            "playerId": "6fzqnn8zjgmcvydun0nktv0q2",
+            "firstName": "Brian Matías",
+            "lastName": "Bustos",
+            "shortFirstName": "Brian",
+            "shortLastName": "Bustos",
+            "matchName": "B. Bustos",
+            "shirtNumber": 1,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "formationPlace": "1",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "10"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalKicks",
+                "value": "5"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "saves",
+                "value": "6"
+              },
+              {
+                "type": "totalPass",
+                "value": "20"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "1"
+              }
+            ]
+          },
+          {
+            "playerId": "bd7hvs4rcz2e71q0pamtqmfis",
+            "firstName": "Eugenio",
+            "lastName": "Raggio",
+            "shortFirstName": "Eugenio",
+            "shortLastName": "Raggio",
+            "matchName": "E. Raggio",
+            "shirtNumber": 6,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "formationPlace": "4",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "37"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "totalClearance",
+                "value": "10"
+              },
+              {
+                "type": "totalPass",
+                "value": "49"
+              },
+              {
+                "type": "totalTackle",
+                "value": "2"
+              },
+              {
+                "type": "totalThrows",
+                "value": "2"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "4"
+              }
+            ]
+          },
+          {
+            "playerId": "54eqoodkfuxrhiredmfw5946i",
+            "firstName": "Agustín",
+            "lastName": "Gómez",
+            "shortFirstName": "Agustín",
+            "shortLastName": "Gómez",
+            "matchName": "A. Gómez",
+            "shirtNumber": 19,
+            "position": "Defender",
+            "positionSide": "Centre",
+            "formationPlace": "5",
+            "captain": "yes",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "32"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalKicks",
+                "value": "4"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "6"
+              },
+              {
+                "type": "totalPass",
+                "value": "39"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "5"
+              }
+            ]
+          },
+          {
+            "playerId": "ecb54se2u1pvo0rmt3iru3uac",
+            "firstName": "Luis Carlos",
+            "lastName": "Gustavino Chila",
+            "shortFirstName": "Luis",
+            "shortLastName": "Gustavino",
+            "matchName": "L. Gustavino",
+            "shirtNumber": 16,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "formationPlace": "6",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "14"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goals",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "20"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "2"
+              },
+              {
+                "type": "totalTackle",
+                "value": "2"
+              },
+              {
+                "type": "totalThrows",
+                "value": "8"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "6"
+              }
+            ]
+          },
+          {
+            "playerId": "yqmce3yjqo7vsxcxqxz0ccgk",
+            "firstName": "Bryan Cristhian",
+            "lastName": "Nazareno Morcillo",
+            "shortFirstName": "Bryan",
+            "shortLastName": "Nazareno",
+            "matchName": "B. Nazareno",
+            "shirtNumber": 77,
+            "position": "Midfielder",
+            "positionSide": "Left",
+            "formationPlace": "3",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "14"
+              },
+              {
+                "type": "fouls",
+                "value": "2"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "lostCorners",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "86"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "29"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "3"
+              },
+              {
+                "type": "totalThrows",
+                "value": "6"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "2"
+              },
+              {
+                "type": "formationPlace",
+                "value": "3"
+              }
+            ]
+          },
+          {
+            "playerId": "cebzrizhi195acmaw8c4cku09",
+            "firstName": "Cristian Alejandro",
+            "lastName": "Tobar Luna",
+            "shortFirstName": "Alejandro",
+            "shortLastName": "Tobar",
+            "matchName": "A. Tobar",
+            "shirtNumber": 99,
+            "position": "Midfielder",
+            "positionSide": "Left/Centre",
+            "formationPlace": "8",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "19"
+              },
+              {
+                "type": "blockedScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "cornerTaken",
+                "value": "2"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalAssist",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "86"
+              },
+              {
+                "type": "totalPass",
+                "value": "24"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "4"
+              },
+              {
+                "type": "totalThrows",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "3"
+              },
+              {
+                "type": "formationPlace",
+                "value": "8"
+              }
+            ]
+          },
+          {
+            "playerId": "3uwu4ulk4ycn2e55elriws296",
+            "firstName": "Kliver Exney",
+            "lastName": "Moreno Robles",
+            "shortFirstName": "Kliver",
+            "shortLastName": "Moreno",
+            "matchName": "K. Moreno",
+            "shirtNumber": 32,
+            "position": "Midfielder",
+            "positionSide": "Centre",
+            "formationPlace": "11",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "17"
+              },
+              {
+                "type": "fouls",
+                "value": "3"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "70"
+              },
+              {
+                "type": "redCard",
+                "value": "1"
+              },
+              {
+                "type": "secondYellow",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "4"
+              },
+              {
+                "type": "totalPass",
+                "value": "22"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "11"
+              }
+            ]
+          },
+          {
+            "playerId": "5t1zsk9kamjebuvv1yl34aga1",
+            "firstName": "Mateo Ignacio",
+            "lastName": "Maccari",
+            "shortFirstName": "Mateo",
+            "shortLastName": "Maccari",
+            "matchName": "M. Maccari",
+            "shirtNumber": 30,
+            "position": "Midfielder",
+            "positionSide": "Centre/Right",
+            "formationPlace": "7",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "20"
+              },
+              {
+                "type": "fouls",
+                "value": "2"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "lostCorners",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "shotOffTarget",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "4"
+              },
+              {
+                "type": "totalPass",
+                "value": "23"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "yellowCard",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "7"
+              }
+            ]
+          },
+          {
+            "playerId": "6habcmdfjyvoh833ox9ayxo4q",
+            "firstName": "Luis Joel",
+            "lastName": "Estupiñán García",
+            "shortFirstName": "Luis",
+            "shortLastName": "Estupiñán",
+            "matchName": "L. Estupiñán",
+            "shirtNumber": 10,
+            "position": "Midfielder",
+            "positionSide": "Right",
+            "formationPlace": "2",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "7"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "86"
+              },
+              {
+                "type": "totalClearance",
+                "value": "3"
+              },
+              {
+                "type": "totalPass",
+                "value": "11"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "wasFouled",
+                "value": "2"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "playerId": "300xxqq3notomlt4s4g03cd7t",
+            "firstName": "Jorge Antonio",
+            "lastName": "Ordóñez Galarce",
+            "shortFirstName": "Jorge",
+            "shortLastName": "Ordóñez",
+            "matchName": "J. Ordóñez",
+            "shirtNumber": 43,
+            "position": "Striker",
+            "positionSide": "Left/Centre",
+            "formationPlace": "9",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "11"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "90"
+              },
+              {
+                "type": "totalClearance",
+                "value": "1"
+              },
+              {
+                "type": "totalOffside",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "14"
+              },
+              {
+                "type": "wasFouled",
+                "value": "2"
+              },
+              {
+                "type": "formationPlace",
+                "value": "9"
+              }
+            ]
+          },
+          {
+            "playerId": "105twqa3d2gwhb4y8xqu4xtrd",
+            "firstName": "Alexis Agustín",
+            "lastName": "Rodríguez",
+            "shortFirstName": "Alexis",
+            "shortLastName": "Rodríguez",
+            "matchName": "A. Rodríguez",
+            "shirtNumber": 17,
+            "position": "Striker",
+            "positionSide": "Centre/Right",
+            "formationPlace": "10",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "9"
+              },
+              {
+                "type": "fouls",
+                "value": "1"
+              },
+              {
+                "type": "gameStarted",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "74"
+              },
+              {
+                "type": "ontargetScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalClearance",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "12"
+              },
+              {
+                "type": "totalScoringAtt",
+                "value": "1"
+              },
+              {
+                "type": "totalSubOff",
+                "value": "1"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "10"
+              }
+            ]
+          },
+          {
+            "playerId": "9n6zbvjca1zy5tzd5cotb845w",
+            "firstName": "Félix Patricio",
+            "lastName": "Angüisaca García",
+            "shortFirstName": "Félix",
+            "shortLastName": "Angüisaca",
+            "matchName": "F. Angüisaca",
+            "shirtNumber": 55,
+            "position": "Substitute",
+            "subPosition": "Defender",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "7h7kat4fgqb0zchvfbtf8htqt",
+            "firstName": "Richard Rodrigo",
+            "lastName": "Calderón Llori",
+            "shortFirstName": "Richard",
+            "shortLastName": "Calderón",
+            "matchName": "R. Calderón",
+            "shirtNumber": 8,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "7pi40tylgulc04ioiblklasyc",
+            "firstName": "Jeremy Saimon",
+            "lastName": "Chacón Murillo",
+            "shortFirstName": "Jeremy",
+            "shortLastName": "Chacón",
+            "matchName": "J. Chacón",
+            "shirtNumber": 14,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "1k0un5v0yoe000dhbiqtrv74l",
+            "firstName": "Eddie Fernando",
+            "lastName": "Guevara Chávez",
+            "shortFirstName": "Eddie",
+            "shortLastName": "Guevara",
+            "matchName": "E. Guevara",
+            "shirtNumber": 23,
+            "position": "Substitute",
+            "subPosition": "Defender",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "2"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "2"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "16"
+              },
+              {
+                "type": "totalOffside",
+                "value": "1"
+              },
+              {
+                "type": "totalPass",
+                "value": "3"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "4vnrab0z6uml0wnimjmfi16fp",
+            "firstName": "Marcos Andrés",
+            "lastName": "López Cabrera",
+            "shortFirstName": "Andrés",
+            "shortLastName": "López",
+            "matchName": "A. López",
+            "shirtNumber": 25,
+            "position": "Substitute",
+            "subPosition": "Defender",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "anjj4mxkwbd3x5fhzwlaxpvit",
+            "firstName": "Lucas Eduardo",
+            "lastName": "Mancinelli",
+            "shortFirstName": "Lucas",
+            "shortLastName": "Mancinelli",
+            "matchName": "L. Mancinelli",
+            "shirtNumber": 7,
+            "position": "Substitute",
+            "subPosition": "Attacker",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "1"
+              },
+              {
+                "type": "cornerTaken",
+                "value": "1"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "4"
+              },
+              {
+                "type": "totalPass",
+                "value": "2"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "3ugdgqgwgkz68h8icqq65rm6s",
+            "firstName": "Josué Andrés",
+            "lastName": "Méndez Olivares",
+            "shortFirstName": "Josué",
+            "shortLastName": "Méndez",
+            "matchName": "J. Méndez",
+            "shirtNumber": 22,
+            "position": "Substitute",
+            "subPosition": "Goalkeeper",
+            "stat": [
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "3ays4v9vrhu4coqj6oaqp2nkl",
+            "firstName": "David Alejandro",
+            "lastName": "Noboa Tello",
+            "shortFirstName": "David",
+            "shortLastName": "Noboa",
+            "matchName": "D. Noboa",
+            "shirtNumber": 5,
+            "position": "Substitute",
+            "subPosition": "Midfielder",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "2"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "4"
+              },
+              {
+                "type": "totalPass",
+                "value": "4"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "wasFouled",
+                "value": "1"
+              },
+              {
+                "type": "wonCorners",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "playerId": "3cv6v6qr1gjuj04hc6jaevuju",
+            "firstName": "Ivan Mateo",
+            "lastName": "Piedra Zaputt",
+            "shortFirstName": "Ivan",
+            "shortLastName": "Piedra",
+            "matchName": "M. Piedra",
+            "shirtNumber": 18,
+            "position": "Substitute",
+            "subPosition": "Defender",
+            "stat": [
+              {
+                "type": "accuratePass",
+                "value": "2"
+              },
+              {
+                "type": "goalsConceded",
+                "value": "1"
+              },
+              {
+                "type": "minsPlayed",
+                "value": "4"
+              },
+              {
+                "type": "totalClearance",
+                "value": "2"
+              },
+              {
+                "type": "totalPass",
+                "value": "2"
+              },
+              {
+                "type": "totalSubOn",
+                "value": "1"
+              },
+              {
+                "type": "totalTackle",
+                "value": "1"
+              },
+              {
+                "type": "totalThrows",
+                "value": "2"
+              },
+              {
+                "type": "wonTackle",
+                "value": "1"
+              },
+              {
+                "type": "formationPlace",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "teamOfficial": [
+          {
+            "id": "cjmmao1dl2wqmu545umyquqqd",
+            "firstName": "Norberto Carlos",
+            "lastName": "Araujo",
+            "shortFirstName": "Norberto",
+            "shortLastName": "Araujo",
+            "type": "manager"
+          }
+        ],
+        "stat": [
+          {
+            "fh": "156",
+            "sh": "41",
+            "type": "accuratePass",
+            "value": "197"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "blockedScoringAtt",
+            "value": "1"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "cornerTaken",
+            "value": "3"
+          },
+          {
+            "fh": "6",
+            "sh": "4",
+            "type": "fkFoulLost",
+            "value": "10"
+          },
+          {
+            "fh": "5",
+            "sh": "3",
+            "type": "fkFoulWon",
+            "value": "8"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goalAssist",
+            "value": "1"
+          },
+          {
+            "fh": "3",
+            "sh": "6",
+            "type": "goalKicks",
+            "value": "9"
+          },
+          {
+            "fh": "1",
+            "sh": "0",
+            "type": "goals",
+            "value": "1"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "goalsConceded",
+            "value": "2"
+          },
+          {
+            "fh": "0",
+            "sh": "5",
+            "type": "lostCorners",
+            "value": "5"
+          },
+          {
+            "fh": "2",
+            "sh": "0",
+            "type": "ontargetScoringAtt",
+            "value": "2"
+          },
+          {
+            "fh": "46.1",
+            "sh": "27.2",
+            "type": "possessionPercentage",
+            "value": "37.9"
+          },
+          {
+            "fh": "1",
+            "sh": "5",
+            "type": "saves",
+            "value": "6"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "secondYellow",
+            "value": "1"
+          },
+          {
+            "fh": "3",
+            "sh": "0",
+            "type": "shotOffTarget",
+            "value": "3"
+          },
+          {
+            "fh": "0",
+            "sh": "4",
+            "type": "subsMade",
+            "value": "4"
+          },
+          {
+            "fh": "9",
+            "sh": "24",
+            "type": "totalClearance",
+            "value": "33"
+          },
+          {
+            "fh": "1",
+            "sh": "1",
+            "type": "totalOffside",
+            "value": "2"
+          },
+          {
+            "fh": "188",
+            "sh": "86",
+            "type": "totalPass",
+            "value": "274"
+          },
+          {
+            "fh": "0",
+            "sh": "1",
+            "type": "totalRedCard",
+            "value": "1"
+          },
+          {
+            "fh": "6",
+            "sh": "0",
+            "type": "totalScoringAtt",
+            "value": "6"
+          },
+          {
+            "fh": "5",
+            "sh": "9",
+            "type": "totalTackle",
+            "value": "14"
+          },
+          {
+            "fh": "6",
+            "sh": "13",
+            "type": "totalThrows",
+            "value": "19"
+          },
+          {
+            "fh": "0",
+            "sh": "2",
+            "type": "totalYellowCard",
+            "value": "2"
+          },
+          {
+            "fh": "2",
+            "sh": "1",
+            "type": "wonCorners",
+            "value": "3"
+          },
+          {
+            "fh": "4",
+            "sh": "6",
+            "type": "wonTackle",
+            "value": "10"
+          },
+          {
+            "type": "formationUsed",
+            "value": "352"
+          }
+        ],
+        "kit": {
+          "id": "30239",
+          "colour1": "#FFFFFF",
+          "type": "away"
+        }
+      }
+    ],
+    "matchDetailsExtra": {
+      "matchOfficial": [
+        {
+          "id": "f3tgnimz8n7f77bl18qso8rf9",
+          "type": "Main",
+          "firstName": "Guillermo Enrique",
+          "lastName": "Guerrero Alcivar",
+          "shortFirstName": "Guillermo",
+          "shortLastName": "Guerrero"
+        },
+        {
+          "id": "cvl96dt2r7u5hpteaqhn7tlp0",
+          "type": "Assistant referee 1",
+          "firstName": "Mauricio",
+          "lastName": "Lozada",
+          "shortFirstName": "Mauricio",
+          "shortLastName": "Lozada"
+        },
+        {
+          "id": "247yctod5gavlvv2yrrbqf8x5",
+          "type": "Assistant referee 2",
+          "firstName": "Monica",
+          "lastName": "Amboya",
+          "shortFirstName": "Mónica",
+          "shortLastName": "Amboya"
+        },
+        {
+          "id": "ciif5mrtl8xodgl2bqmqci02d",
+          "type": "Fourth official",
+          "firstName": "Jaime Enrique",
+          "lastName": "Sánchez Méndez",
+          "shortFirstName": "Jaime",
+          "shortLastName": "Sánchez"
+        },
+        {
+          "id": "9wt2n2aiuguae9k8o0awi7nit",
+          "type": "Video Assistant Referee",
+          "firstName": "Roberto Paul",
+          "lastName": "Sánchez Rodríguez",
+          "shortFirstName": "Roberto",
+          "shortLastName": "Sánchez"
+        },
+        {
+          "id": "8fx1tf67pb5dwci26dq62m6tw",
+          "type": "Assistant VAR Official",
+          "firstName": "Gisselle Carolina",
+          "lastName": "Giler Reina",
+          "shortFirstName": "Gisselle",
+          "shortLastName": "Reina"
+        }
+      ]
+    }
+  }
+}

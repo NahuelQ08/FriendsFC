@@ -12,33 +12,6 @@ st.set_page_config(
 with open("assets/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Tema oscuro
-# st.markdown("""
-#     <style>
-#         body {
-#             background-color: #0e1117;
-#             color: #fafafa;
-#         }
-#         .stButton>button {
-#             background-color: #262730;
-#             color: white;
-#             border-radius: 10px;
-#             border: 1px solid #333;
-#             padding: 0.5em 1.5em;
-#             transition: 0.3s;
-#         }
-#         .stButton>button:hover {
-#             background-color: #3b3c47;
-#         }
-#         .stTabs [data-baseweb="tab"] {
-#             background-color: #1a1d23;
-#             color: #fafafa;
-#         }
-#         .stTabs [data-baseweb="tab"]:hover {
-#             background-color: #2a2e38;
-#         }
-#     </style>
-# """, unsafe_allow_html=True)
 
 # Verificar login
 if "logged_in" not in st.session_state:
