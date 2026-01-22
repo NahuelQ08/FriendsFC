@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from collections import defaultdict
+import pandas as pd
 from collections import Counter
 
 
@@ -97,126 +98,37 @@ def extract_duel_timeseries(matches_path: Path):
 # ----------------------------------------------------------------------
 
 
-def get_league_nationalities(squads_path: Path):
+def get_league_nationalities_from_squads(squads_file: Path) -> pd.DataFrame:
     """
-    Extrae nacionalidades de jugadores desde la carpeta squads/
+    Extrae nacionalidades de jugadores desde squads.json de una temporada.
     """
+
+    if not squads_file.exists():
+        return pd.DataFrame()
+
+    with open(squads_file, encoding="utf-8") as f:
+        data = json.load(f)
 
     nationality_counter = Counter()
 
-    for file in squads_path.glob("*.json"):
-        with open(file, encoding="utf-8") as f:
-            data = json.load(f)
+    squads = data.get("squad", [])
 
-        squads = data.get("squad", [])
+    for squad in squads:
+        players = squad.get("person", [])
 
-        for squad in squads:
-            players = squad.get("person", [])
+        for p in players:
+            if p.get("type") != "player":
+                continue
 
-            for p in players:
-                if p.get("type") != "player":
-                    continue
+            nationality = p.get("nationality")
+            if nationality:
+                nationality_counter[nationality] += 1
 
-                nationality = p.get("nationality")
+    df = pd.DataFrame(
+        [
+            {"Nacionalidad": nat, "Jugadores": count}
+            for nat, count in nationality_counter.items()
+        ]
+    ).sort_values("Jugadores", ascending=False)
 
-                if nationality:
-                    nationality_counter[nationality] += 1
-
-    rows = [
-        {
-            "Nacionalidad": nat,
-            "Jugadores": count
-        }
-        for nat, count in nationality_counter.items()
-    ]
-
-    return rows
-
-def get_league_nationalities_last_n_seasons(
-    base_path: Path,
-    continente: str,
-    pais: str,
-    liga: str,
-    temporadas: list[str]
-):
-    """
-    Devuelve el total de jugadores por nacionalidad
-    considerando varias temporadas
-    """
-
-    nationality_counter = Counter()
-
-    for temporada in temporadas:
-        squads_path = (
-            base_path
-            / continente
-            / pais
-            / liga
-            / temporada
-            / "squads"
-        )
-
-        if not squads_path.exists():
-            continue
-
-        for file in squads_path.glob("*.json"):
-            with open(file, encoding="utf-8") as f:
-                data = json.load(f)
-
-            for squad in data.get("squad", []):
-                for p in squad.get("person", []):
-                    if p.get("type") != "player":
-                        continue
-
-                    nationality = p.get("nationality")
-                    if nationality:
-                        nationality_counter[nationality] += 1
-
-    return [
-        {"Nacionalidad": nat, "Jugadores": count}
-        for nat, count in nationality_counter.items()
-    ]
-
-def get_nationalities_by_season(
-    base_path: Path,
-    continente: str,
-    pais: str,
-    liga: str,
-    temporadas: list[str]
-):
-    """
-    Devuelve cantidad de nacionalidades distintas por temporada
-    """
-
-    rows = []
-
-    for temporada in temporadas:
-        squads_path = (
-            base_path
-            / continente
-            / pais
-            / liga
-            / temporada
-            / "squads"
-        )
-
-        if not squads_path.exists():
-            continue
-
-        nationalities = set()
-
-        for file in squads_path.glob("*.json"):
-            with open(file, encoding="utf-8") as f:
-                data = json.load(f)
-
-            for squad in data.get("squad", []):
-                for p in squad.get("person", []):
-                    if p.get("type") == "player" and p.get("nationality"):
-                        nationalities.add(p["nationality"])
-
-        rows.append({
-            "Temporada": temporada,
-            "Nacionalidades": len(nationalities)
-        })
-
-    return rows
+    return df

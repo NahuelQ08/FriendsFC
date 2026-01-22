@@ -13,7 +13,7 @@ from utils.filesystem import (
 )
 from utils.loader import load_json
 
-from utils.visual_liga import extract_duel_timeseries, get_league_nationalities
+from utils.visual_liga import extract_duel_timeseries, get_league_nationalities_from_squads
 
 
 
@@ -122,19 +122,129 @@ for temporada in temporadas:
 # --------------------------------------------------
 # Nacionalidades de jugadores en la liga
 # --------------------------------------------------
-squads_path = (
+
+# Obtener nacionalidades de la temporada actual seleccionada
+squads_file_actual = (
     BASE_PATH
     / continente
     / pais
     / liga
     / temporada
-    / "squads"
+    / "squads.json"
+)
+df_nat = get_league_nationalities_from_squads(squads_file_actual)
+
+# Acumular nacionalidades de los últimos 5 años
+rows_hist_nat = []
+rows_hist_count = []
+
+for temp in temporadas[-5:]:
+    squads_file = (
+        BASE_PATH
+        / continente
+        / pais
+        / liga
+        / temp
+        / "squads.json"
+    )
+
+    df_temp = get_league_nationalities_from_squads(squads_file)
+
+    if df_temp.empty:
+        continue
+
+    # Para la evolución de cantidad de nacionalidades
+    rows_hist_count.append({
+        "Temporada": temp,
+        "Cantidad de nacionalidades": df_temp["Nacionalidad"].nunique()
+    })
+
+    # Para el gráfico de barras con todas las nacionalidades
+    df_temp["Temporada"] = temp
+    rows_hist_nat.extend(df_temp.to_dict("records"))
+
+# Dataframe para evolución de cantidad de nacionalidades
+df_count_evolution = pd.DataFrame(rows_hist_count)
+
+# Dataframe para gráfico de barras por nacionalidad
+df_nat_hist = pd.DataFrame(rows_hist_nat)
+
+# Agrupamos por nacionalidad sumando jugadores en los 5 años
+df_nat_total = (
+    df_nat_hist
+    .groupby("Nacionalidad", as_index=False)
+    .agg({"Jugadores": "sum"})
+    .sort_values("Jugadores", ascending=False)
 )
 
-rows = get_league_nationalities(squads_path)
-df_nat = pd.DataFrame(rows)
+st.subheader("🌍 Nacionalidades en la liga")
+
+col_nat_1, col_nat_2 = st.columns(2)
+
+# -------------------------
+# PIE CHART (temporada actual)
+# -------------------------
+with col_nat_1:
+    if not df_nat.empty:
+        fig_pie = px.pie(
+            df_nat,
+            names="Nacionalidad",
+            values="Jugadores",
+            title=f"Distribución - {temporada}",
+            hole=0
+        )
+        fig_pie.update_traces(textposition="inside", textinfo="percent+label")
+        st.plotly_chart(fig_pie, use_container_width=True)
+    else:
+        st.warning("No hay datos disponibles para la temporada seleccionada")
 
 
+# -------------------------
+# BAR CHART (últimas 5 años acumulado)
+# -------------------------
+with col_nat_2:
+    if not df_nat_total.empty:
+        # Top 10 nacionalidades para mejor visualización
+        df_top_10 = df_nat_total.head(10)
+        
+        fig_bar = px.bar(
+            df_top_10,
+            x="Nacionalidad",
+            y="Jugadores",
+            title="Top 10 nacionalidades (últimas 5 años)",
+            text_auto=True,
+            labels={"Jugadores": "Total de Jugadores", "Nacionalidad": "Nacionalidad"}
+        )
+        
+        fig_bar.update_layout(
+            xaxis_tickangle=-45,
+            height=400,
+            showlegend=False
+        )
+        
+        st.plotly_chart(fig_bar, use_container_width=True)
+    else:
+        st.warning("No hay datos históricos disponibles")
+
+
+# -------------------------
+# BONUS: Gráfico de evolución
+# -------------------------
+st.subheader("📈 Evolución de nacionalidades")
+
+if not df_count_evolution.empty:
+    fig_evolution = px.bar(
+        df_count_evolution,
+        x="Temporada",
+        y="Cantidad de nacionalidades",
+        title="Cantidad de nacionalidades distintas por temporada",
+        text_auto=True
+    )
+    
+    fig_evolution.update_traces(marker_color="rgb(55, 83, 109)")
+    st.plotly_chart(fig_evolution, use_container_width=True)
+else:
+    st.warning("No hay datos históricos para mostrar evolución")
 # --------------------------------------------------
 # VALIDACIÓN FINAL
 # --------------------------------------------------
